@@ -1,0 +1,29 @@
+package modul5caca.guided1;
+
+public class Mahasiswa {
+    private String nim;
+    private String nama;
+    private int nilai;
+
+    public void setNama(String nama) {
+        this.nama = nama;
+    }
+
+    public void setNim(String nim) {
+        this.nim = nim;
+    }
+
+    public void setNilai(int nilai) { //ini setter nya 
+        this.nilai = nilai;
+    }
+    public int getNilai() { //ini getter nya                                                                                      
+        return this.nilai;
+    }
+    public String getNama() {
+        return this.nama;
+    }
+
+ public String getNim(){
+ return this.nim;
+}
+}
